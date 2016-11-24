@@ -1,0 +1,159 @@
+################# ACADEMIC LICENSE ##################################
+#                                                                   #
+#   This file is a license for OpenEye Scientific Software.  Any    #
+#   modifications to this file may invalidate the license.          #
+#                                                                   #
+#   The Laboratory of Donald B. Boyd                                #
+#   Indiana University Purdue University Indianapolis               #
+#                                                                   #
+#   Thu Oct 20 08:50:00 2016                                        #
+#####################################################################
+#PRODUCT: bioisostere
+#EXP_DATE: 2017 10 20
+#LICENSEE: The Laboratory of Donald B. Boyd
+#SITE: Indiana University Purdue University Indianapolis
+LICENSE_KEY: a23d708dcaa38ee3f427614d1cdaa1e887cfd9388439f167668dc49d921a9e7b
+#PRODUCT: docking
+#EXP_DATE: 2017 10 20
+#FEATURES: python;java;clr
+#LICENSEE: The Laboratory of Donald B. Boyd
+#SITE: Indiana University Purdue University Indianapolis
+LICENSE_KEY: e321bd0b27a4cf58fcd06d9d5475d72b749a27d23b0a1ff5034fb1459b64229b
+#PRODUCT: eon
+#EXP_DATE: 2017 10 20
+#LICENSEE: The Laboratory of Donald B. Boyd
+#SITE: Indiana University Purdue University Indianapolis
+LICENSE_KEY: 2bc20e37045cfa94df0b5e026824ca684ea51dd32e379ce19e168f4741dbbc42
+#PRODUCT: fastrocs
+#EXP_DATE: 2017 10 20
+#FEATURES: python;java;clr
+#LICENSEE: The Laboratory of Donald B. Boyd
+#SITE: Indiana University Purdue University Indianapolis
+LICENSE_KEY: 6be8343fcf05578afc311793bd75583bfcc8b9bfe43c3cafa3f452f87a18a18e
+#PRODUCT: filter
+#EXP_DATE: 2017 10 20
+#FEATURES: toolkit;python;java;clr
+#LICENSEE: The Laboratory of Donald B. Boyd
+#SITE: Indiana University Purdue University Indianapolis
+LICENSE_KEY: d6aa41da8c91eb1384eea3fa9b96e75b14a07a0b9b1216eff5b5a05a063d877c
+#PRODUCT: fred2
+#EXP_DATE: 2017 10 20
+#LICENSEE: The Laboratory of Donald B. Boyd
+#SITE: Indiana University Purdue University Indianapolis
+LICENSE_KEY: 7ac05e1b1406fe85a360c09740efdbe6d291569610d34c868132728a8f9edbc5
+#PRODUCT: grapheme
+#EXP_DATE: 2017 10 20
+#FEATURES: python;java;clr
+#LICENSEE: The Laboratory of Donald B. Boyd
+#SITE: Indiana University Purdue University Indianapolis
+LICENSE_KEY: 14fff467778492f5fb0f97a31ea13996962dbbb93769552df1fda0a2459cd205
+#PRODUCT: graphsim
+#EXP_DATE: 2017 10 20
+#FEATURES: python;java;clr
+#LICENSEE: The Laboratory of Donald B. Boyd
+#SITE: Indiana University Purdue University Indianapolis
+LICENSE_KEY: 77dab4dd6f520fbebc4acd5914575706b72d582e67a746b50485fed9c9053460
+#PRODUCT: iupac
+#EXP_DATE: 2017 10 20
+#FEATURES: python;java;clr
+#LICENSEE: The Laboratory of Donald B. Boyd
+#SITE: Indiana University Purdue University Indianapolis
+LICENSE_KEY: e8a757c205c5ee3facf36f21e6082101e363cb7414a6d9eb47b96725c5c1f94b
+#PRODUCT: oechem
+#EXP_DATE: 2017 10 20
+#FEATURES: python;java;clr
+#LICENSEE: The Laboratory of Donald B. Boyd
+#SITE: Indiana University Purdue University Indianapolis
+LICENSE_KEY: d80fc00d7649c3f9868c273ce5806429cda51c4cfec2c21ad2026eb155a6bd66
+#PRODUCT: oedepict
+#EXP_DATE: 2017 10 20
+#FEATURES: python;java;clr
+#LICENSEE: The Laboratory of Donald B. Boyd
+#SITE: Indiana University Purdue University Indianapolis
+LICENSE_KEY: 7dabe58febd687667a33739b4c5d94a103bc721cf63e7713e9b06d9ff51a1f32
+#PRODUCT: oemedchem
+#EXP_DATE: 2017 10 20
+#FEATURES: python;java;clr
+#LICENSEE: The Laboratory of Donald B. Boyd
+#SITE: Indiana University Purdue University Indianapolis
+LICENSE_KEY: 4158b5de7d67babeca585282e8daa58c3596674c3ff87d9f53d0f54b265ce7ea
+#PRODUCT: omega
+#EXP_DATE: 2017 10 20
+#FEATURES: gas-phase;toolkit;python;java;clr
+#LICENSEE: The Laboratory of Donald B. Boyd
+#SITE: Indiana University Purdue University Indianapolis
+LICENSE_KEY: 4e367777500f8b968d00a936a160a838f56522b6101c30365a98b27131714fb8
+#PRODUCT: omega-db
+#EXP_DATE: 2017 10 20
+#LICENSEE: The Laboratory of Donald B. Boyd
+#SITE: Indiana University Purdue University Indianapolis
+LICENSE_KEY: 05d39a68102ac7ab2261243465a6c99904f2feb9a8b9b69f0ba242d366e2888a
+#PRODUCT: posit
+#EXP_DATE: 2017 10 20
+#LICENSEE: The Laboratory of Donald B. Boyd
+#SITE: Indiana University Purdue University Indianapolis
+LICENSE_KEY: 5ff99a54f4a6ad9d610aa7990ffb9b857dcda5cb9be8dc6a1d3fc1785126e577
+#PRODUCT: quacpac
+#EXP_DATE: 2017 10 20
+#FEATURES: beta;python;java;clr
+#LICENSEE: The Laboratory of Donald B. Boyd
+#SITE: Indiana University Purdue University Indianapolis
+LICENSE_KEY: b6bf5df88aa0b4189b2d5b92d482c5b818a00214142516a611be91b7adfcaa6b
+#PRODUCT: rocs
+#EXP_DATE: 2017 10 20
+#LICENSEE: The Laboratory of Donald B. Boyd
+#SITE: Indiana University Purdue University Indianapolis
+LICENSE_KEY: 79577ece380225fef65e07b22423139e6253210e05bb49b2bd3450154c8e5fc8
+#PRODUCT: shape
+#EXP_DATE: 2017 10 20
+#FEATURES: molecules;grids;python;java;clr
+#LICENSEE: The Laboratory of Donald B. Boyd
+#SITE: Indiana University Purdue University Indianapolis
+LICENSE_KEY: 2e974cbb6b4daf46b13372f194e09928f9a6b32e45ac4f2834a3c338af4c05d5
+#PRODUCT: spicoli
+#EXP_DATE: 2017 10 20
+#FEATURES: python;java;clr
+#LICENSEE: The Laboratory of Donald B. Boyd
+#SITE: Indiana University Purdue University Indianapolis
+LICENSE_KEY: 61de785785e0d420d74e80cc08653abeaa0b5dcf6f9062b5cf1d7adf8daf147a
+#PRODUCT: szmap
+#EXP_DATE: 2017 10 20
+#LICENSEE: The Laboratory of Donald B. Boyd
+#SITE: Indiana University Purdue University Indianapolis
+LICENSE_KEY: 18f3ec3c3ce0a77bf58fdf361d2cec638c6d50b0c3a3d2a426063328d0411988
+#PRODUCT: szmaptk
+#EXP_DATE: 2017 10 20
+#FEATURES: python;java;clr
+#LICENSEE: The Laboratory of Donald B. Boyd
+#SITE: Indiana University Purdue University Indianapolis
+LICENSE_KEY: e7dba74d072c859d861dc0dc9b8f9c6a1f11c126f60af1be33d91c6019a14339
+#PRODUCT: szybki
+#EXP_DATE: 2017 10 20
+#FEATURES: python;java;clr
+#LICENSEE: The Laboratory of Donald B. Boyd
+#SITE: Indiana University Purdue University Indianapolis
+LICENSE_KEY: c5ea5517091f2349c3241fc5a4b80090a2428e6f3d1df76f4950cf880fe904f1
+#PRODUCT: case
+#EXP_DATE: 2017 10 20
+#FEATURES: python;java;clr
+#LICENSEE: The Laboratory of Donald B. Boyd
+#SITE: Indiana University Purdue University Indianapolis
+LICENSE_KEY: 1017130c349ef7dfd71bfe31ad3a05a8fc547f748ab734e0dee900b484723068
+#PRODUCT: vida
+#EXP_DATE: 2017 10 20
+#FEATURES: script line
+#LICENSEE: The Laboratory of Donald B. Boyd
+#SITE: Indiana University Purdue University Indianapolis
+LICENSE_KEY: a06fd993e7ee17a5030134d3e2a5d19781f0b18732c78ae87558805644882c37
+#PRODUCT: vivant
+#EXP_DATE: 2017 10 20
+#LICENSEE: The Laboratory of Donald B. Boyd
+#SITE: Indiana University Purdue University Indianapolis
+LICENSE_KEY: 7c3e01524296c1b30c097f6fa436d72d2db0dd430a0d18e253d13ee007e61615
+#PRODUCT: zap
+#EXP_DATE: 2017 10 20
+#FEATURES: basic toolkit;protein pka;perfect charge;python;java;clr
+#LICENSEE: The Laboratory of Donald B. Boyd
+#SITE: Indiana University Purdue University Indianapolis
+LICENSE_KEY: 9b0a3f828cc434db319b8f2faf2f0da4b8b87b0d427b92d5721e1c514c2ba8be
+
