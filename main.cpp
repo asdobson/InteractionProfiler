@@ -9,6 +9,8 @@
 #include <sstream>
 #include <vector>
 #include <unordered_map>
+#include "http.h"
+#include <sys/stat.h>
 
 using namespace std;
 
@@ -39,7 +41,7 @@ string exec(const char* cmd) {
 	return result;
 }
 
-void printToFile(string fname, string toprint) {
+void printToFile(const string& fname, const string& toprint) {
 	ofstream output;
 
 	try {
@@ -54,7 +56,7 @@ void printToFile(string fname, string toprint) {
 	output.close();
 }
 
-unordered_map<string, vector<float>> interactions_from_pdb (string& name, string& dirpath) {
+unordered_map<string, vector<float>> interactions_from_pdb (const string& name, const string& dirpath) {
 	string cmd = "printinteractions.exe " + dirpath + "\\" + name + ".pdb";
 	vector<string> result = split(exec(cmd.c_str()), '\n');
 	unordered_map<string, vector<float>> interactions;
@@ -77,11 +79,34 @@ unordered_map<string, vector<float>> interactions_from_pdb (string& name, string
 	return interactions;
 }
 
+struct Protein {
+	string name;
+	float ic50;
+	unordered_map<string, vector<float>> interactions;
+};
+
+bool fileExists(const string& filename) {
+	struct stat buf;
+	return (stat(filename.c_str(), &buf) != -1);
+}
+
 int main(int argc, char *argv[])
 {
-	string name = "1tqf";
+	vector<Protein> proteins;
 	string pdbPath = "PDB_Files";
-	auto interactions = interactions_from_pdb(name, pdbPath);
+	vector<string> pdbNames = { "1tqf", "4hhb" };
+	
+	for (const string& name : pdbNames) {
+		Protein protein;
+		protein.name = name;
+		string file = (pdbPath + "//" + name + ".pdb");
+		utility::string_t path = utility::conversions::to_string_t("/download/" + name + ".pdb");
+		if (!fileExists(file)) {
+			http_request(utility::conversions::to_string_t(file), U("https://files.rcsb.org"), path);
+		}
+		protein.interactions = interactions_from_pdb(name, pdbPath);
+		proteins.push_back(protein);
+	}
 
   QApplication a(argc, argv);
   InteractionProfiler w;
