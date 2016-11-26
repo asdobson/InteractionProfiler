@@ -1,2 +1,8 @@
-﻿  main.cpp
+﻿  Moc'ing InteractionProfiler.h...
+  qrc_InteractionProfiler.cpp
+  moc_InteractionProfiler.cpp
+  http.cpp
+  InteractionProfiler.cpp
+  main.cpp
+  Generating Code...
   InteractionProfiler.vcxproj -> D:\OneDrive\Documents\Projects\InteractionProfiler\x64\Release\InteractionProfiler.exe

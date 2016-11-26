@@ -9,6 +9,7 @@ using namespace concurrency::streams;       // Asynchronous streams
 
 
 void http_request(std::wstring resultFile, std::wstring url, std::wstring uri) {
+
 	auto fileStream = std::make_shared<ostream>();
 
 	// Open stream to output file.

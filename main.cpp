@@ -11,6 +11,7 @@
 #include <unordered_map>
 #include "http.h"
 #include <sys/stat.h>
+#include <boost/filesystem.hpp>
 
 using namespace std;
 
@@ -92,14 +93,16 @@ bool fileExists(const string& filename) {
 
 int main(int argc, char *argv[])
 {
+	qDebug("Test msg");
 	vector<Protein> proteins;
 	string pdbPath = "PDB_Files";
 	vector<string> pdbNames = { "1tqf", "4hhb" };
-	
+
+	boost::filesystem::create_directory(pdbPath.c_str());
 	for (const string& name : pdbNames) {
 		Protein protein;
 		protein.name = name;
-		string file = (pdbPath + "//" + name + ".pdb");
+		string file = (pdbPath + "\\" + name + ".pdb");
 		utility::string_t path = utility::conversions::to_string_t("/download/" + name + ".pdb");
 		if (!fileExists(file)) {
 			http_request(utility::conversions::to_string_t(file), U("https://files.rcsb.org"), path);
